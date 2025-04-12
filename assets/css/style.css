@@ -781,7 +781,9 @@ p {
 }
 
 .single-logo img {
-  max-width: 100%;
+  max-height: 90px;
+  max-width: 250px;
+  width: 100%;
   -webkit-filter: grayscale(5);
   filter: grayscale(5);
   opacity: 0.5;
