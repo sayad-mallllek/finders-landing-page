@@ -109,6 +109,10 @@ p {
   margin: 0px;
 }
 
+.finders-logo {
+  width: 160px;
+}
+
 .bg_cover {
   background-position: center center;
   background-size: cover;
