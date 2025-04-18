@@ -146,11 +146,11 @@ p {
     linear,
     left top,
     right top,
-    from(#33c8c1),
-    color-stop(50%, #119bd2),
-    to(#33c8c1)
+    from(#8824c4),
+    color-stop(50%, #bb57f7),
+    to(#8824c4)
   );
-  background: linear-gradient(to right, #33c8c1 0%, #119bd2 50%, #33c8c1 100%);
+  background: linear-gradient(to right, #8824c4 0%, #bb57f7 50%, #8824c4 100%);
   background-size: 200%;
 }
 
@@ -1121,10 +1121,10 @@ p {
     linear,
     left top,
     left bottom,
-    from(#33c8c1),
-    to(#119bd2)
+    from(#a116f5),
+    to(#cc81f9)
   );
-  background: linear-gradient(#33c8c1 0%, #119bd2 100%);
+  background: linear-gradient(#a116f5 0%, #cc81f9 100%);
 }
 
 .counter-wrapper .single-counter.counter-color-2::before {
@@ -1480,20 +1480,11 @@ p {
   width: 40px;
   height: 40px;
   border-radius: 5px;
-  background: -webkit-gradient(
-    linear,
-    left top,
-    right top,
-    from(#fe8464),
-    color-stop(50%, #fe6e9a),
-    to(#fe8464)
-  );
-  background: linear-gradient(to right, #fe8464 0%, #fe6e9a 50%, #fe8464 100%);
   background-size: 200%;
   text-align: center;
   z-index: 99;
   -webkit-transition: all 0.3s ease-out 0s;
-  transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s, scale 0.2s ease-out 0s;
   display: none;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -1506,6 +1497,7 @@ p {
 .back-to-top:hover {
   color: #fff;
   background-position: right center;
+  scale: 1.1;
 }
 
 /* ======================
